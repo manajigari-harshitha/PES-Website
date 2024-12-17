@@ -12,6 +12,8 @@ function ContactForm() {
     message: "",
   });
 
+
+
   const [submitMessage, setSubmitMessage] = useState("");
 
   // Handling the change in the input field
@@ -63,7 +65,10 @@ function ContactForm() {
       try {
         // Message for user
         setSubmitMessage("Sending Email to Pehchaan Ek Safar...");
-
+        
+        // console.log(`${import.meta.env.VITE_API_BASE}/contact/send-email`);
+        // console.log(`${import.meta.env.VITE_API_BASE}`);
+        
         // Send form data to the backend and mailing to PES
         const respone = await fetch(
           `${import.meta.env.VITE_API_BASE}/contact/send-email`,
@@ -75,6 +80,9 @@ function ContactForm() {
             body: JSON.stringify(formData),
           }
         );
+        //console.log(${import.meta.env.VITE_API_BASE}/contact/send-email);
+        
+
 
         // Showing message to the user for sucessfull submission
         setSubmitMessage("✓ Form Submitted sucessfully!!");

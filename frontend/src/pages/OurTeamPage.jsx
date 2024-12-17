@@ -1,7 +1,17 @@
 import { Link } from 'react-router-dom';
 import "../styles/pagesStyles/OurTeamPage.css"
 import TeamsCard from "../components/TeamsCard"
-import profilepic from "../assets/governingbody/president.png"
+// import profilepic from "../assets/governingbody/president.png"
+import president from "../assets/governingbody/Ruchita.jpg"
+import vicepresident from "../assets/governingbody/Jay.jpg"
+import agrasen from "../assets/governingbody/Agrasen.jpg"
+import brajesh from "../assets/governingbody/Brajesh.jpg"
+import pranav from "../assets/governingbody/Pranav.jpg"
+import shashank from "../assets/governingbody/Shashank.jpg"
+import udit from "../assets/governingbody/Udit.jpg"
+import yogesh from "../assets/governingbody/Yogesh.jpeg"
+import shiva from "../assets/governingbody/shiva.jpg"
+import diya from "../assets/governingbody/diya.jpg"
 import directorPic from "../assets/patronAndMentor/rajeev_sir.jpeg"
 import pps_sir from "../assets/patronAndMentor/pps_sir.jpeg"
 import harpreet_sir from "../assets/patronAndMentor/harpreet_sir.jpg"
@@ -48,85 +58,76 @@ function OurTeamPage(){
                  
                     </div>
                 </section>
-                {/* <section className="GoverningBody OurTeam">
+                <section className="GoverningBody OurTeam">
                     <h1>Governing Body</h1>
                     <div className="Cards">
                         <TeamsCard
-                            img = {profilepic}
-                            name = "Shivam"
+                            img = {president}
+                            name = "Ruchita Gupta"
                             designation = "President"
-                            email = "2021meb1322@iitrpr.ac.in"
+                            email = "2022meb1339@iitrpr.ac.in"
                         />
                         <TeamsCard
-                            img = {profilepic}
-                            name = "Yashaswini Vajja"
+                            img = {vicepresident}
+                            name = "Jay Goel"
                             designation = "Vice President"
-                            email = "2021csb1137@iitrpr.ac.in"
+                            email = "2022eeb1178@iitrpr.ac.in"
+                        />
+                       
+                          <TeamsCard
+                            img = {pranav}
+                            name = "Pranav Menon"
+                            designation = "Secretary-1"
+                            email = "2022csb1329@iitrpr.ac.in"
                         />
                         <TeamsCard
-                            img = {profilepic}
-                            name = "Reetika"
-                            designation = "Vice President SI"
-                            email = "2021eeb1204@iitrpr.ac.in"
+                            img = {yogesh}
+                            name = "Yogesh Rathia"
+                            designation = "Secretary-2"
+                            email = "2023csm1022@iitrpr.ac.in"
+                        />
+                        <TeamsCard
+                            img = {udit}
+                            name = "Udit Vijay"
+                            designation = "PR and Sponsorship Lead"
+                            email = "2022ceb1033@iitrpr.ac.in"
                         />
                           <TeamsCard
-                            img = {profilepic}
-                            name = "Nehal Sonkar"
-                            designation = "Secretary"
-                            email = "2021meb1304@iitrpr.ac.in"
-                        />
-                      
-                          <TeamsCard
-                            img = {profilepic}
-                            name = "Aditya Mote"
-                            designation = "Treasurer"
-                            email = "2021meb1298@iitrpr.ac.in"
+                            img = {agrasen}
+                            name = "Agrasen Yadav"
+                            designation = "Paathshala Lead"
+                            email = "2023meb1327@iitrpr.ac.in"
                         />
                           <TeamsCard
-                            img = {profilepic}
-                            name = "Navrinder Singh Dhaliwal"
-                            designation = "Member"
-                            email = "2021meb1302@iitrpr.ac.in"
+                            img = {shiva}
+                            name = "Shiva Kumar"
+                            designation = "Office Team Lead"
+                            email = "2023eeb1244@iitrpr.ac.in"
+                        />
+                          
+                          <TeamsCard
+                            img = {diya}
+                            name = "Diya Seal"
+                            designation = "Social Media Lead"
+                            email = "2023meb1341@iitrpr.ac.in"
                         />
                           <TeamsCard
-                            img = {profilepic}
-                            name = "Pranav Menon"
-                            designation = "Member"
-                            email = "2022meb1329@iitrpr.ac.in"
-                        />
-                          <TeamsCard
-                            img = {profilepic}
-                            name = "Palla Ramprasad"
-                            designation = "Member"
-                            email = "palla.21bmz0007@iitrpr.ac.in"
+                            img = {shashank}
+                            name = "Shashank Kumar"
+                            designation = "Outreach Lead"
+                            email = "2021csb1131@iitrpr.ac.in"
                         />
                      
                              <TeamsCard
-                            img = {profilepic}
-                            name = "Ajay Kumar"
-                            designation = "Member"
-                            email = "2022mcb1254@iitrpr.ac.in"
+                            img = {brajesh}
+                            name = "Brajesh Khokad"
+                            designation = "Event Management Lead"
+                            email = "2023csb1111@iitrpr.ac.in"
                         />
-                             <TeamsCard
-                            img = {profilepic}
-                            name = "Pawan Kumar"
-                            designation = "Member"
-                            email = "pawan.21phz0005@iitrpr.ac.in"
-                        />
-                                <TeamsCard
-                            img = {profilepic}
-                            name = "Priyanshu Singh"
-                            designation = "Member"
-                            email = "2022meb1332@iitrpr.ac.in"
-                        />
-                                <TeamsCard
-                            img = {profilepic}
-                            name = "Kumar Mangalam"
-                            designation = "Member"
-                            email = "2022aim1002@iitrpr.ac.in"
-                        />
+                              
+                              
                     </div>
-                </section> */}
+                </section>
                 <section className="Web-developer OurTeam">
                     <h1>Web Developers</h1>
                     <div className="Cards">
