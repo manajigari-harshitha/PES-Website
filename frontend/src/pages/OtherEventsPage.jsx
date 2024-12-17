@@ -23,6 +23,9 @@ function OtherEventsPage() {
   }, []);
 
   // if(events.length == 0) return <>Loading</>;
+
+
+  // TODO: Made a static events array containing all the properties
   return (
     <>
       <Hero
