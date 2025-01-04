@@ -41,19 +41,19 @@ function OurTeamPage(){
                             img = {directorPic}
                             name = "Prof. Rajeev Ahuja"
                             designation = "Director, IIT Ropar"
-                            email = "2021meb1322@iitrpr.ac.in"
+                            email = "director@iitrpr.ac.in"
                         />
                         <TeamsCard
                             img = {pps_sir}
                             name = "Dr. Pushpendra P. Singh"
                             designation = "Associate Professor, IIT Ropar"
-                            email = "2021csb1137@iitrpr.ac.in"
+                            email = "pps@iitrpr.ac.in"
                         />
                         <TeamsCard
                             img = {harpreet_sir}
                             name = "Prof. Harpreet Singh"
                             designation = "Professor, IIT Ropar"
-                            email = "2021eeb1204@iitrpr.ac.in"
+                            email = "harpreetsingh@iitrpr.ac.in"
                         />
                  
                     </div>
